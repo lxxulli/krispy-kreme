@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: "Brandon Grotesque";
+    font-weight: 900;
+    src: url(../fonts/brandon-grotesque-black-58a8a3e824392.otf) format("opentype");
+}
+@font-face {
+    font-family: "TestCalibre";
+    font-weight: 900;
+    src: url(../fonts/TestCalibre-Semibold.otf) format("opentype");
+}
+@font-face {
+    font-family: "Silk Serif";
+    font-weight: 900;
+    src: url(../fonts/Silk\ Serif\ Regular.otf) format("opentype");
+}
+@font-face {
+    font-family: 'BRBA_B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/BRBA_B.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

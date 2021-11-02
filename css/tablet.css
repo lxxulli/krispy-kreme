@@ -1,0 +1,269 @@
+@media all and (min-width: 1024px){
+    html{font-size: 1.5625vw;}
+    header h1 img{width: 100%;}
+    header nav .gnb{
+        margin-top: 12.5rem;
+        font-size: 6.25rem;
+    }
+    header .nav-btn img{width: 80%;} 
+    header .util div{
+        font-size: 1.875rem;
+        margin-left: 1.25rem;
+    }
+    header .search{font-size: 1.875rem;}
+    header nav .search form input{
+        width: 15.625rem;    
+        border-bottom: .125rem solid #777 ;
+    }
+    header nav .search img{width: 2.1875rem;}
+    /* header */
+
+    .visual .bot{text-align: right;}
+    .visual .top img{width: 85%;}
+    .visual .bot img{width: 85%;}
+    /* visual */
+    .text_visual{margin-top: 4.375rem;}
+    .text_visual h2{
+        font-size: 8.125rem;
+        line-height: 8.125rem;
+    }
+    .text_visual .green_box{
+        width: 48.125rem;
+        height: 37.5rem;
+        margin-top: -8.125rem;
+        margin-left: -1.25rem;
+    }
+    .text_visual .txt{
+        font-size: 1.75rem;
+        margin-top: -22.5rem;
+    }
+    .text_visual .txt .story_more{
+        background-position: .75rem 2.5rem;
+        background-size: 10.625rem auto;
+        text-indent: -1.5625rem;
+        width: max-content;
+        margin-left: -0.4375rem;
+        margin-top: 6.25rem;
+    }
+    .text_visual .story_more a{padding: .5rem 1.25rem;}
+    .text_visual .thumb{
+        text-align: left;
+        margin-left: 45rem;
+        margin-top: -11.25rem;
+    }
+    .text_visual .thumb .bread{
+        margin-top: -14.375rem;
+        margin-left: -17.5rem;
+    }
+    .text_visual .drink img{width: 14.375rem;}
+    .text_visual .bread img{width: 23.75rem;}
+    /* text_visual */
+
+    .menu{margin: 9.375rem auto 5rem;}
+    .menu h3{
+        font-size: 3.125rem;
+        margin-left: 3.125rem;
+        line-height: 3.75rem;
+    }
+    .menu h3 span{font-size: 4.375rem;}
+    .menu .doughnut{
+        padding-top: 3.125rem;
+        height: 72vw;
+    }
+    .menu .doughnut .item{
+        width: 25%;
+        text-align: center;
+    }
+    /* menu */
+
+    .poster{height: 50rem;}
+    .poster .poster_wrap{position: relative;}
+    .poster .halloween .doughnut{margin-right: -13.125rem;}
+    .poster .halloween .bot3{
+        top: 16.875rem;
+        left: 18.75rem;
+    }
+    .poster .halloween .tree{right: 0;}
+    .poster .halloween .txt{
+        font-size: 1.875rem;
+        margin-top: 16.25rem;
+        margin-left: 7.5rem;
+    }
+    .poster .halloween .txt button{
+        font-size: .9375rem;
+        margin-top: 1.25rem;
+    }
+    .poster .halloween .txt button img{
+        width: 1.25rem;
+        margin-left: .625rem;
+    }
+    .poster .halloween .title img{width: 40.625rem;}
+    .poster .halloween .bot1 img{width: 12.5rem;}
+    .poster .halloween .bot2 img{width: 6.25rem;}
+    .poster .halloween .bot3 img{width: 6.25rem;}
+    .poster .halloween .house img{width: 59.375rem;}
+    .poster .halloween .tree img{width: 26.25rem;}
+    .poster .halloween .doughnut img{width: 26.875rem;}
+    .poster .original .doughnut{margin-left: -14.375rem;}
+    .poster .original h3 img{width: 20.625rem;}
+    .poster .original h4 img{width: 43.75rem; margin-top: -1.25rem;}
+    .poster .original .doughnut img{width: 28.125rem;}
+    /* poster */
+
+    .other_menu .menu_wrap{
+        padding: 7.5rem 0;
+        background-size: 14.375rem auto;
+    }
+    .other_menu .coffee .thumb{background-size: 25rem;}
+    .other_menu .coffee .thumb .deco{
+        left: -4.6875rem;
+        bottom: -2.3125rem;
+    }
+    .other_menu .icecreme .thumb{
+        background-size: 28.125rem;
+        background-position: center;
+    }
+    .other_menu .icecreme .thumb .deco{
+        position: absolute;
+        right: -5.625rem;
+        bottom: -3.125rem;
+    }
+    .other_menu .beverage .thumb{background-size: 28.125rem;        }
+    .other_menu .beverage .thumb .deco{
+        position: absolute;
+        left: -1.25rem;
+        bottom: 0;
+    }
+    .other_menu .menu_wrap .txt h4{font-size: 2.5rem;}
+    .other_menu .menu_wrap .txt p{font-size: 1.5625rem; width: max-content;}
+    .other_menu .menu_wrap .coffee .thumb .main{width: 21.875rem;}
+    .other_menu .menu_wrap .coffee .thumb .deco{width: 28.125rem;}
+    .other_menu .menu_wrap .icecreme .thumb .main{width: 26.875rem;}
+    .other_menu .menu_wrap .icecreme .thumb .deco{width: 35.9375rem;}
+    .other_menu .menu_wrap .beverage .thumb .main{width: 26.875rem;}
+    .other_menu .menu_wrap .beverage .thumb .deco{width: 28.125rem;}
+    /* other_menu */
+
+    .store{
+        height: 33.125rem;
+        background-size: 56.25rem auto;
+    }
+    .store .house{margin-top: 3.125rem;}
+    .store .house img{width: 50rem;}
+    .store .txt{
+        margin-top: 3.125rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+    }
+    .store .txt::before{
+        content: '';
+        display: block;
+        width: 12%;
+        height: .125rem;
+        background-color: #777;
+        position: absolute;
+        top: 57%;
+        left: 0;
+    }
+    .store .txt::after{
+        content: '';
+        display: block;
+        width: 12%;
+        height: .125rem;
+        background-color: #777;
+        position: absolute;
+        top: 57%;
+        right: 0;
+    }
+    .store .txt p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .store .txt p::before{
+        content: '';
+        display: block;
+        width: .4375rem;
+        height: .4375rem;
+        border-radius: 50%;
+        background-color: #777;
+        margin-right: .9375rem;
+    }
+    .store .txt .search{
+        background-image: none;
+        padding: 0;
+        text-indent: unset;
+        background-color: #333;
+        color: #f0f0f0;
+        padding: .1875rem .9375rem;
+        margin-top: .4375rem;
+        border-radius: 3.125rem;
+        transition: all 0.3s;
+    }
+    .store .txt .search:hover{
+        color: #333;
+        background-color: #ebebeb;
+    }
+    .store .txt p br{display: none;}
+    /* store */
+
+    footer{
+        text-align: left;
+        font-size: 1rem;
+        height: 20.625rem;
+    }
+    footer .top{
+        display: flex;
+        align-items: center;
+        margin-top: 1.875rem;
+        margin-left: 4.375rem;
+    }
+    footer .f_logo img{width: 2.5rem;}
+    footer .f_title::after{display: none;}
+    footer .f_title h5{
+        margin: unset;
+        font-size: 1.6875rem;
+        margin-left: .625rem;
+    }
+    footer .f_gnb{
+        font-size: 1.25rem;
+        display: block;
+        margin-left: 8.75rem;
+        margin-top: .9375rem;
+    }
+    footer .f_gnb li{
+        width: max-content;
+        padding: .3125rem 0;
+    }
+    footer .f_gnb li:nth-child(3) img{width: 1.6875rem;}
+    footer .f_gnb li:nth-child(4) img{width: 1.5625rem;}
+    footer .right{
+        width: max-content;
+        margin-left: auto;
+        margin-top: -16.875rem;
+        margin-right: 4.375rem;
+        font-size: 1rem;
+    }
+    footer .f_submenu{
+        justify-content: left;
+        margin: 0;
+    }
+    footer .company{margin-top: 1.25rem;}
+    footer .right_bot{
+        display: flex;
+        align-items: center;
+        margin-top: 3.125rem;
+    }
+    footer .sns li{margin: 0 1.25rem;}
+    footer .sns li:nth-child(1) img{width: 1.4375rem;}
+    footer .sns li:nth-child(2) img{width: 2.1875rem;}
+    footer .sns li:nth-child(3) img{width: 2.1875rem;}
+    footer .sns li:nth-child(4) img{width: 2.5rem;}
+    footer select{
+        margin-left: 6.25rem;
+        width: 4.375rem;
+    }
+}
