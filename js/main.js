@@ -74,13 +74,15 @@ $(document).ready(function(){
     $(".poster").on("touchmove", function(e) {
         $(".video")
         var videoplay = $(".poster").scrollLeft();
-
+        var vdo = $(".poster").find("video");
         if(videoplay >= $(window).width() / 2){
-            $(".poster video").get(0).play();
+            alert("aaa")
+            vdo.get(0).currentTime = 0;
+            vdo.get(0).play();
         } else if(videoplay < $(window).width()){
-            $(".poster video").get(0).pause();
+            vdo.get(0).pause();
         }
-    })
+    });
 
     $(".poster .poster_wrap > div > div").width(winWidth);
     $(".poster .poster_wrap > div").on("mouseenter", function() {
